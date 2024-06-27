@@ -17,7 +17,7 @@ namespace JogoDeCombinacaoDeAnimais
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-
+    
     public partial class MainWindow : Window
     {
         DispatcherTimer timer = new DispatcherTimer();
@@ -44,6 +44,7 @@ namespace JogoDeCombinacaoDeAnimais
             }
         }
 
+        //lista emotion
         private void SetUpGame()
         {
             List<string> animalEmoji = new List<string>()
